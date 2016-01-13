@@ -1,0 +1,21 @@
+{
+    "name": "fgh151/yii2-push",
+    "description": "Mobile (Android, ios) push notifications extension",
+    "type": "yii2-extension",
+    "keywords": ["yii2","push", "android","ios"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Fedor B Gorsky",
+            "email": "fedor@support-pc.org"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "fgh151\\modules\\push\\": ""
+        }
+    }
+}
